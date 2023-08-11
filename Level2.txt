@@ -1,0 +1,5 @@
+find /home -name -\*
+
+cat /home/bandit1/
+
+rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi
