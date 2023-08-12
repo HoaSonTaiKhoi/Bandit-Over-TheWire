@@ -1,3 +1,5 @@
+ssh -p bandit3@bandit.labs.overthewire.org
+
 find -type d -name inhere
 
 cd ./inhere
