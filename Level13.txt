@@ -1,0 +1,83 @@
+mkdir /tmp/new_file
+
+cp data.txt /tmp/new_file
+
+cd /tmp/new_file
+
+ls
+
+//
+xxd -r data.txt > data.gz
+
+file data.gz
+
+//
+gzip -d data.gz
+
+//
+ls
+
+file data
+
+bzip2 -d data
+
+//
+ls
+
+file data.out
+
+mv data.out data.gz
+
+gzip -d data.gz
+
+//
+ls
+
+file data
+
+mv data data.tar
+
+tar -xvf data.tar
+
+//
+ls
+
+file data
+
+mv data5.bin data5.tar
+
+tar -xvf data5.tar
+
+//
+ls
+
+file data6.bin
+
+bzip2 -d data6.bin
+
+//
+ls 
+
+file data6.bin.out
+
+mv data6.bin.out data6.tar
+
+//
+ls
+
+file data8.bin
+
+mv data8.bin data8.gz
+
+gzip -d data8.gz
+
+//
+ls
+
+file data8
+
+cat data8
+
+
+
+wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw
