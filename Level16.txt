@@ -1,0 +1,7 @@
+ssh -p 2220 bandit15@bandit.labs.overthewire.org
+
+openssl s_client -connect localhost:30001  //vì ssl encryption nên phải dùng openssl thay cho telnet và nc
+
+jN2kgmIXJ6fShzhT2avhotn4Zcka6tnt
+
+Output: JQttfApK4SeyHwDlI9SXGR50qclOAil1
