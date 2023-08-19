@@ -1,0 +1,19 @@
+ssh -p 2220 bandit19@bandit.labs.overthewire.org
+
+ls
+
+file bandit20-do
+
+// bandit20-do là một file setuid
+
+stat -c "%a %A %U %G %n" bandit20-do
+
+//4750 -rwsr-x--- bandit20 bandit19 bandit20-do
+//bandit20-do thuộc user bandit20 và group bandit19, cho phép khả năng truy cập vào các file thuộc user bandit20
+
+
+./bandit20-do ls /etc/bandit_pass
+
+./bandit20-do cat /etc/bandit_pass/bandit20
+
+Output: VxCazJaVykI6W36BkBU0mJTCM8rR95XT

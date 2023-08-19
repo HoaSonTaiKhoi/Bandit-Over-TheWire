@@ -1,0 +1,11 @@
+ssh -p 2220 bandit20@bandit.labs.overthewire.org
+
+ls
+
+echo -n 'VxCazJaVykI6W36BkBU0mJTCM8rR95XT' | nc -l -p 9999 &
+
+//nhét mật khẩu cũ vào một cổng tạm thời -n của echo ngăn chặn tạo dòng mới -l của netcat là listen và -p là port 
+// & để có thể duy trì trong background
+
+
+Output: NvEJF7oVjkddltPSrdKEFOllh9V1IBcq
