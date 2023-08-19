@@ -1,0 +1,38 @@
+ssh -p 2220 bandit16@bandit.labs.overthewire.org
+
+nmap -sV -p31000-32000 localhost
+
+//
+
+openssl s_client -connect localhost:31046
+
+//
+
+openssl s_client -connect localhost:31518
+
+//
+
+openssl s_client -connect localhost:31691
+
+//
+
+openssl s_client -connect localhost:31790
+
+RSA_key
+
+//
+
+mkdir /tmp/new_file
+
+nano sshkey.private
+
+"Paste copied RSA_Key"
+
+"Save"
+
+chmod 0700 sshkey.private
+//
+
+ssh -p 2220 -i sshkey.private bandit17@bandit.labs.overthewire.org
+
+yes

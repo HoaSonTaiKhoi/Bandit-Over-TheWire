@@ -1,0 +1,11 @@
+diff --normal passwords.old passworlds.old
+
+< glZreTEH1V3cGKL6g4conYqZqaEj0mte
+---
+> hga5tuuCLF6fFzUpnagiMN8ssu9LFrdg
+
+cat passwords.new | grep glZreTEH1V3cGKL6g4conYqZqaEj0mte
+
+cat passwords.old | grep hga5tuuCLF6fFzUpnagiMN8ssu9LFrdg
+
+hga5tuuCLF6fFzUpnagiMN8ssu9LFrdg
