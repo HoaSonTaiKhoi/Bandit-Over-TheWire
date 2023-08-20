@@ -1,8 +1,0 @@
-ssh -p 2220 bandit14@bandit.labs.overthewire.org
-
-nc localhost 30000
-
-fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq
-
-
-Output: jN2kgmIXJ6fShzhT2avhotn4Zcka6tnt

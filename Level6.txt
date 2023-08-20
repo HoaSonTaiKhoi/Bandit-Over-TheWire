@@ -1,7 +1,0 @@
-find -type f -size 1033c ! -executable -exec file {} + | grep -w text
-
-cat maybehere07/.file2
-
-P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU
-
-

@@ -1,5 +1,0 @@
-ssh -p bandit11@bandit.labs.overthewire.org
-
-cat data.txt | tr A-Za-z N-ZA-Mn-za-m
-
-JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv

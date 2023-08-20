@@ -1,7 +1,0 @@
-ssh -p 2220 bandit8@bandit.labs.overthewire.org
-
-sort data.txt | uniq -c // dem so lan xuat hien
-
-sort data.txt | uniq -u //duy nhat 
-
-EN632PlfYiZbn3PhVK3XOGSlNInNE00t

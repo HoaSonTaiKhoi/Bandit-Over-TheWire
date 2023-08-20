@@ -1,9 +1,0 @@
-find /home -name spaces\*
-
-cat /home/bandit2/spaces\ in\ this\ filename
-
-or 
-
-catt /home/bandit2/"spaces in this filename"
-
-aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG
