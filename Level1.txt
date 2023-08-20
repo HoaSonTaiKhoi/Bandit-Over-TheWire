@@ -1,7 +1,0 @@
-ssh -p 2220 bandit0@bandit.labs.overthewire.org
-
-find /home -name readme\*
-
-cd /home/bandit0
-
-cat readme
