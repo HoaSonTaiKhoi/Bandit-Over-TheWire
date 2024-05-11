@@ -1,2 +1,0 @@
-# Bandits
-# Overthewire
